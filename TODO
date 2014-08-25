@@ -3,3 +3,8 @@
 * some apps don't have tests
 * allow update_docs to build only some versions, and build
   old versions less often.
+* port the old tracdb south migrations which add some views to the database
+  to new style migrations (low priority since they would just be faked anyway
+  unless someone is trying to setup a new clone of djangoproject.com).
+  Easier when #22583 is resolved, but Andrew said "it could be converted into
+  a RunPython and then switched based on the value of schema_editor.connection"

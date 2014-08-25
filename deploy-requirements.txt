@@ -1,11 +1,11 @@
 # Requirements to deploy this code.
 
 akismet == 0.2.0
-Django == 1.6.6
+Django == 1.7
 django-contact-form == 1.0
 django-haystack == 1.2.7
 django-push == 0.6.1
-django-registration==1.0
+django-registration==1.0  # TODO: need a release of django-registration compatible with 1.7
 django-secure == 1.0
 docutils == 0.11
 feedparser == 5.1.3
