@@ -8,7 +8,7 @@ from django_hosts.resolvers import reverse
 from sorl.thumbnail import ImageField, get_thumbnail
 
 DISPLAY_LOGO_AMOUNT = Decimal("200.00")
-DEFAULT_DONATION_AMOUNT = 50
+DEFAULT_DONATION_AMOUNT = 100
 INTERVAL_CHOICES = (
     ('monthly', 'Monthly donation'),
     ('quarterly', 'Quarterly donation'),

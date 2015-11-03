@@ -103,12 +103,16 @@ class DonateForm(forms.Form):
     AMOUNT_CHOICES = (
         (5, 'US $5'),
         (25, 'US $25'),
-        (50, '1 hour: US $50'),
-        (100, '2 hours: US $100'),
-        (200, '4 hours: US $200'),
-        (400, '1 day: US $400'),
-        (1200, '3 days: US $1,200'),
-        (2800, '1 week: US $2,800'),
+        (50, 'US $50'),
+        (100, 'US $100'),
+        (200, 'US $200'),
+        (500, 'US $500'),
+        (1500, 'US $1,500'),
+        (2500, 'US $2,500'),
+        (5000, 'US $5,000'),
+        (10000, 'US $10,000'),
+        (20000, 'US $20,000'),
+        (50000, 'US $50,000'),
         ('custom', 'Other amount'),
     )
     AMOUNT_VALUES = dict(AMOUNT_CHOICES).keys()
